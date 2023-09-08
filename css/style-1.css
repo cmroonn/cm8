@@ -3911,6 +3911,8 @@ a.basic-btn {
     width: 100%;
     height: auto;
     margin-bottom: 5.5555555556vw;
+    min-height: unset;
+    padding-bottom: calc(30 / 360 * 100vw);
   }
   .facts4 .facts__card__title {
     max-width: unset;
@@ -11343,4 +11345,14 @@ form.popup-timer__form {
 .credit__content-triple .credit__item img {
   height: calc(220 / 1600 * 100vw);
   object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .credit__content-triple .credit__item {
+    width: 100%;
+  }
+  .credit__content-triple .credit__item img {
+    height: calc(220 / 360 * 100vw);
+
+  }
 }
