@@ -2924,6 +2924,10 @@ a.basic-btn {
   }
 }
 
+.demand {
+  margin-top: calc(100 / 360 * 100vw);
+}
+
 @media (max-width: 500px) {
   .demand {
     overflow: hidden;
@@ -7738,6 +7742,7 @@ li.creator__text__name {
     width: calc(100% + (20 / 360 * 100vw));
     margin-left: calc(-10 / 360 * 100vw);
     margin-bottom: calc(50 / 360 * 100vw);
+    margin-top: calc(30 / 360 * 100vw);
   }
 
   .tarif .get-access .container {
