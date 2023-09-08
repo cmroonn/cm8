@@ -119,6 +119,10 @@ button {
   .main {
     /*overflow-x: hidden;*/
   }
+
+  .main-mob-overflow {
+    overflow-x: hidden;
+  }
 }
 
 .main.blur {
